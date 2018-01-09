@@ -1,0 +1,13 @@
+<h2>Show Scheduling</h2>
+
+<ul>
+
+  <li>
+    <strong>Name:</strong>
+    <%= @scheduling.name %>
+  </li>
+
+</ul>
+
+<span><%= link "Edit", to: scheduling_path(@conn, :edit, @scheduling) %></span>
+<span><%= link "Back", to: scheduling_path(@conn, :index) %></span>

@@ -1,0 +1,5 @@
+<h2>Edit Scheduling</h2>
+
+<%= render "form.html", Map.put(assigns, :action, scheduling_path(@conn, :update, @scheduling)) %>
+
+<span><%= link "Back", to: scheduling_path(@conn, :index) %></span>
